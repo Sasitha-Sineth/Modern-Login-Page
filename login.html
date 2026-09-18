@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2 style="text-align: center">Login</h2>
+      <form action="/login" method="POST">
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="User Name"
+        />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Password"
+        />
+        <br />
+        <button type="submit" style="width: 100%">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
